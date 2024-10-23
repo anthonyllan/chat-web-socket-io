@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("http://192.168.214.206:8000");
 
 let fileURL;
 
